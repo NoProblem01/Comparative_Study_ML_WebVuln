@@ -8,3 +8,14 @@ xgboost>=2.0
 catboost>=1.2
 tabpfn
 
+
+#%pip install kaggle scikit-learn xgboost catboost tabpfn pandas numpy matplotlib seaborn -q
+#%pip install --quiet scikit-learn xgboost catboost tabpfn chardet
+#%pip install -U scikit-learn
+## in deiner (Conda/venv) Umgebung
+#%pip install --upgrade "torch==2.*" --index-url https://download.pytorch.org/whl/cu121
+#%pip install --upgrade xgboost catboost scikit-learn pandas scipy tabpfn
+##wenn es komplikationen mit torch gibt, deiinstallieren und neu installieren
+#%pip uninstall torch
+#%pip install torch --index-url https://download.pytorch.org/whl/cu121 --upgrade
+#%pip install openpyxl
